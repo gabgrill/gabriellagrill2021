@@ -1,0 +1,29 @@
+body{
+	background-color: white;
+}
+
+a:link, a:visited{
+	color: rgb(0, 29, 255);
+	text-decoration: none;
+	}
+a:hover {
+	color: rgb(74, 255, 0);
+	text-decoration: underline;
+	}
+
+a:active{
+	color: rgb(255, 54, 235);
+	text-decoration: underline;
+	}
+
+.text-boxes{
+	position: relative;
+	width: 40%;
+	padding: 1rem;
+	margin: 1rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 30%);
+	font-size: 150px;
+	box-sizing: border-box;
+}
