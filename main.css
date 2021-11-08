@@ -25,4 +25,50 @@ a:active{
 	left: 50%;
 	transform: translate(-50%, 0);
 	padding: 1rem;
+	z-index: 100;
+}
+
+.page-name{
+	width: 100%;
+	text-align: center;
+	top: 0;
+	display: block;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	padding: 1rem;
+	font-size: 38px;
+}
+
+.image-object-left{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-110%, 30%);
+	width: 21rem;
+	height: 30rem;
+	object-fit: cover;
+	box-sizing: border-box;
+}
+
+.arrow {
+	position: absolute;
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	right: 0;
+	padding: 1rem;
+}
+
+.left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+ 	left: 0;
+	padding: 1rem;
 }
