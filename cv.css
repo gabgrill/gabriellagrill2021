@@ -1,0 +1,25 @@
+body{
+	font-size: 14px;
+}
+
+.text-body{
+	position: relative;
+	display: block;
+	top: 0;
+	margin: 3rem;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: yellow;
+	width: 50%;
+	height: auto;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+}
+
+h2{
+	font-size: 14px;
+	text-align: center;
+}
